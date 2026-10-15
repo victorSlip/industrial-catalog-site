@@ -1,0 +1,502 @@
+/* =========================================================
+   Traduções dos textos fixos do site (EN / DE / PT-BR)
+   - O conteúdo das máquinas é traduzido no painel (/admin).
+   - Para mudar um texto: altere aqui nos três idiomas.
+   - Se faltar uma tradução, o site usa o texto em inglês.
+   ========================================================= */
+
+const LANGS = [
+  { code: "en", label: "EN", name: "English", html: "en" },
+  { code: "de", label: "DE", name: "Deutsch", html: "de" },
+  { code: "pt", label: "PT", name: "Português", html: "pt-BR" },
+];
+
+const I18N = {
+  en: {
+    "page.home": "Nordtec | Industrial surface finishing machines",
+    "page.machines": "Machines | Nordtec",
+    "page.services": "Services | Nordtec",
+    "page.about": "About us | Nordtec",
+    "page.contact": "Contact us | Nordtec",
+
+    "nav.home": "Home",
+    "nav.machines": "Machines",
+    "nav.services": "Services",
+    "nav.about": "About us",
+    "nav.contact": "Contact Us",
+    "nav.quote": "Request a Quote",
+    "nav.openMenu": "Open menu",
+    "nav.closeMenu": "Close menu",
+    "lang.label": "Language",
+
+    "footer.about": "Machines and consumables for industrial surface finishing. German engineering since 2004. Fictional company – portfolio demo.",
+    "footer.navigation": "Navigation",
+    "footer.contact": "Contact",
+    "footer.follow": "Follow us",
+    "footer.rights": "All rights reserved.",
+    "footer.location": "Stuttgart, Germany",
+    "toTop": "Back to top",
+
+    "cta.title": "Ready to optimize your production line?",
+    "cta.text": "Talk to our team and get a tailored proposal for your plant.",
+    "cta.quote": "Request a quote",
+    "cta.email": "E-mail us",
+
+    "home.eyebrow": "German engineering since 2004",
+    "home.title": "Innovative solutions for industrial surface finishing",
+    "home.lead": "Cutting-edge technology, efficiency, and specialized support for your production",
+    "home.viewMachines": "View our machines",
+    "home.quote": "Request a quote",
+    "stats.aria": "Nordtec in numbers",
+    "stats.founded": "Founded in Germany",
+    "stats.years": "Years of experience",
+    "stats.machines": "Machines and testing devices",
+    "stats.worldwide": "Worldwide",
+    "stats.worldwideText": "Installations in Europe, Asia and the Americas",
+    "offer.eyebrow": "What we offer",
+    "offer.title": "Equipment for every step of surface finishing",
+    "offer.lead": "From automatic handling to cleaning, plating, polishing and quality control — complete lines designed to work together.",
+    "featured.eyebrow": "Featured",
+    "featured.title": "Our machines",
+    "featured.seeAll": "See all machines",
+    "why.eyebrow": "Why Nordtec",
+    "why.title": "A partner for the whole life of your equipment",
+    "why.p1": "All our equipment and products excel in quality and progressive technology. Business partners benefit from uncomplicated, service-friendly designs and from low working and maintenance costs.",
+    "why.p2": "This enables them in turn to deliver high quality products in the shortest possible time to their own customers.",
+    "why.services": "Our services",
+
+    "svc.consulting.title": "Consulting and design",
+    "svc.consulting.text": "We analyze your needs and develop customized solutions for your production.",
+    "svc.install.title": "Installation and training",
+    "svc.install.text": "We guarantee the correct installation of equipment and train your team to operate safely and efficiently.",
+    "svc.install.short": "Correct installation of equipment and training so your team operates safely and efficiently.",
+    "svc.maint.title": "Preventive maintenance and corrections",
+    "svc.maint.text": "We offer complete support to quickly fix faults and prevent downtime, ensuring maximum efficiency and service life for your equipment.",
+    "svc.maint.shortTitle": "Preventive maintenance",
+    "svc.maint.short": "Fast support to fix faults and prevent downtime, extending the service life of your equipment.",
+
+    "services.title": "Our Services",
+    "services.lead": "Complete support for your production, from planning to maintenance",
+    "services.why": "Why hire our services?",
+    "services.team": "Qualified technical team",
+    "services.quick": "Quick response",
+    "services.cost": "Cost optimization",
+
+    "about.title": "About Nordtec",
+    "about.lead": "Quality, innovation, and partnership in industry",
+    "about.eyebrow": "Since 2004",
+    "about.history": "Our history",
+    "about.intro": "Nordtec Machinery, founded in Stuttgart in 2004, designs machines and accessories for industrial surface finishing. What started as a small workshop building polishing units is today a supplier of complete finishing lines, sold directly and through partners in several countries.",
+    "about.t1.title": "2004 – Founding of Nordtec Machinery",
+    "about.t1.text": "Nordtec is founded in Stuttgart, Germany, to build compact and reliable polishing machines for local metalworking companies.",
+    "about.t2.title": "2011 – First installations abroad",
+    "about.t2.text": "With a new export department, Nordtec delivers complete finishing lines to customers in Europe, Asia and South America.",
+    "about.t3.title": "2019 – Connected machines and service network",
+    "about.t3.text": "Nordtec launches its line of connected machines with remote diagnostics and builds a partner network for fast on-site service.",
+    "about.people": "People",
+    "about.team": "Our Team",
+    "about.name": "Name",
+    "about.position": "Position",
+
+    "contact.title": "Contact us",
+    "contact.lead": "We are ready to serve you",
+    "contact.ours": "Our contacts",
+    "contact.send": "Send your message",
+    "contact.map": "Nordtec location map",
+    "form.name": "Name",
+    "form.email": "E-mail",
+    "form.subject": "Subject",
+    "form.message": "Message",
+    "form.submit": "Send message",
+    "form.sending": "Sending…",
+    "form.success": "Thank you! Your message has been sent. We will get back to you soon.",
+    "form.alsoEmail": "You can also e-mail us at {email}.",
+    "form.quote": "Quote request",
+    "form.quoteMachine": "Quote request: {machine}",
+    "form.question": "Question",
+    "form.questionMachine": "Question about: {machine}",
+    "form.phone": "Phone (optional)",
+    "form.err.phone": "Please enter a valid phone number.",
+    "form.err.captcha": "Please confirm that you are not a robot.",
+    "form.err.default": "Your message could not be sent.",
+    "form.err.reload": "Please reload the page and try again.",
+    "form.err.fields": "Please fill in all fields.",
+    "form.err.email": "Please enter a valid e-mail address.",
+    "form.err.rate": "Too many messages. Please try again later.",
+
+    "machines.title": "Our machines",
+    "machines.lead": "Find the ideal solution for your needs",
+    "machines.categories": "Categories",
+    "machines.all": "All machines",
+    "machines.next": "Next",
+    "machines.pages": "Pages",
+    "card.details": "See details",
+    "carousel.aria": "Featured machines",
+    "carousel.readMore": "Read more",
+    "carousel.prev": "Previous",
+    "carousel.next": "Next",
+    "carousel.slide": "Slide {n}",
+    "cat.product": "{n} product",
+    "cat.products": "{n} products",
+
+    "detail.notFound": "Machine not found",
+    "detail.back": "Back to all machines",
+    "detail.techData": "Technical data",
+    "detail.highlights": "Highlights",
+    "detail.ask": "Ask a question",
+    "detail.phone": "Phone",
+    "detail.email": "E-mail",
+    "detail.features": "Features",
+    "detail.inDetail": "{name} in detail",
+    "detail.gallery": "Gallery",
+    "detail.galleryTitle": "Photo gallery",
+    "detail.openImage": "Open image {n}",
+    "detail.image": "image {n}",
+    "detail.related": "Related machines",
+    "detail.seeAllIn": "See all in {cat}",
+    "lightbox.close": "Close",
+  },
+
+  de: {
+    "page.home": "Nordtec | Maschinen für die industrielle Oberflächenbearbeitung",
+    "page.machines": "Maschinen | Nordtec",
+    "page.services": "Dienstleistungen | Nordtec",
+    "page.about": "Über uns | Nordtec",
+    "page.contact": "Kontakt | Nordtec",
+
+    "nav.home": "Startseite",
+    "nav.machines": "Maschinen",
+    "nav.services": "Dienstleistungen",
+    "nav.about": "Über uns",
+    "nav.contact": "Kontakt",
+    "nav.quote": "Angebot anfordern",
+    "nav.openMenu": "Menü öffnen",
+    "nav.closeMenu": "Menü schließen",
+    "lang.label": "Sprache",
+
+    "footer.about": "Maschinen und Verbrauchsmaterialien für die industrielle Oberflächenbearbeitung. Deutsche Ingenieurskunst seit 2004. Fiktives Unternehmen – Portfolio-Demo.",
+    "footer.navigation": "Navigation",
+    "footer.contact": "Kontakt",
+    "footer.follow": "Folgen Sie uns",
+    "footer.rights": "Alle Rechte vorbehalten.",
+    "footer.location": "Stuttgart, Deutschland",
+    "toTop": "Nach oben",
+
+    "cta.title": "Bereit, Ihre Produktionslinie zu optimieren?",
+    "cta.text": "Sprechen Sie mit unserem Team und erhalten Sie ein maßgeschneidertes Angebot für Ihr Werk.",
+    "cta.quote": "Angebot anfordern",
+    "cta.email": "E-Mail senden",
+
+    "home.eyebrow": "Deutsche Ingenieurskunst seit 2004",
+    "home.title": "Innovative Lösungen für die industrielle Oberflächenbearbeitung",
+    "home.lead": "Modernste Technologie, Effizienz und kompetente Unterstützung für Ihre Produktion",
+    "home.viewMachines": "Unsere Maschinen",
+    "home.quote": "Angebot anfordern",
+    "stats.aria": "Nordtec in Zahlen",
+    "stats.founded": "Gegründet in Deutschland",
+    "stats.years": "Jahre Erfahrung",
+    "stats.machines": "Maschinen und Prüfgeräte",
+    "stats.worldwide": "Weltweit",
+    "stats.worldwideText": "Anlagen in Europa, Asien und Amerika",
+    "offer.eyebrow": "Unser Angebot",
+    "offer.title": "Anlagen für jeden Schritt der Oberflächenbearbeitung",
+    "offer.lead": "Vom automatischen Handling über Reinigung, Galvanik und Polieren bis zur Qualitätskontrolle – komplette, aufeinander abgestimmte Linien.",
+    "featured.eyebrow": "Im Fokus",
+    "featured.title": "Unsere Maschinen",
+    "featured.seeAll": "Alle Maschinen ansehen",
+    "why.eyebrow": "Warum Nordtec",
+    "why.title": "Ein Partner für die gesamte Lebensdauer Ihrer Anlagen",
+    "why.p1": "Alle unsere Anlagen und Produkte überzeugen durch Qualität und fortschrittliche Technologie. Unsere Geschäftspartner profitieren von unkomplizierten, servicefreundlichen Konstruktionen sowie niedrigen Betriebs- und Wartungskosten.",
+    "why.p2": "So können sie ihren eigenen Kunden hochwertige Produkte in kürzester Zeit liefern.",
+    "why.services": "Unsere Dienstleistungen",
+
+    "svc.consulting.title": "Beratung und Planung",
+    "svc.consulting.text": "Wir analysieren Ihre Anforderungen und entwickeln maßgeschneiderte Lösungen für Ihre Produktion.",
+    "svc.install.title": "Installation und Schulung",
+    "svc.install.text": "Wir garantieren die fachgerechte Installation der Anlagen und schulen Ihr Team für einen sicheren und effizienten Betrieb.",
+    "svc.install.short": "Fachgerechte Installation der Anlagen und Schulung, damit Ihr Team sicher und effizient arbeitet.",
+    "svc.maint.title": "Vorbeugende Wartung und Instandsetzung",
+    "svc.maint.text": "Wir bieten umfassende Unterstützung, um Störungen schnell zu beheben und Ausfälle zu vermeiden – für maximale Effizienz und Lebensdauer Ihrer Anlagen.",
+    "svc.maint.shortTitle": "Vorbeugende Wartung",
+    "svc.maint.short": "Schnelle Unterstützung bei Störungen und zur Vermeidung von Ausfällen – für eine längere Lebensdauer Ihrer Anlagen.",
+
+    "services.title": "Unsere Dienstleistungen",
+    "services.lead": "Umfassende Unterstützung für Ihre Produktion – von der Planung bis zur Wartung",
+    "services.why": "Warum unsere Dienstleistungen?",
+    "services.team": "Qualifiziertes Technikerteam",
+    "services.quick": "Schnelle Reaktion",
+    "services.cost": "Kostenoptimierung",
+
+    "about.title": "Über Nordtec",
+    "about.lead": "Qualität, Innovation und Partnerschaft in der Industrie",
+    "about.eyebrow": "Seit 2004",
+    "about.history": "Unsere Geschichte",
+    "about.intro": "Die 2004 in Stuttgart gegründete Nordtec Machinery entwickelt Maschinen und Zubehör für die industrielle Oberflächenbearbeitung. Aus einer kleinen Werkstatt für Poliereinheiten ist ein Anbieter kompletter Bearbeitungslinien geworden, die direkt und über Partner in mehreren Ländern vertrieben werden.",
+    "about.t1.title": "2004 – Gründung von Nordtec Machinery",
+    "about.t1.text": "Nordtec wird in Stuttgart gegründet, um kompakte und zuverlässige Poliermaschinen für Metallbaubetriebe der Region zu bauen.",
+    "about.t2.title": "2011 – Erste Installationen im Ausland",
+    "about.t2.text": "Mit einer neuen Exportabteilung liefert Nordtec komplette Bearbeitungslinien an Kunden in Europa, Asien und Südamerika.",
+    "about.t3.title": "2019 – Vernetzte Maschinen und Servicenetz",
+    "about.t3.text": "Nordtec bringt eine Linie vernetzter Maschinen mit Ferndiagnose auf den Markt und baut ein Partnernetz für schnellen Service vor Ort auf.",
+    "about.people": "Menschen",
+    "about.team": "Unser Team",
+    "about.name": "Name",
+    "about.position": "Position",
+
+    "contact.title": "Kontakt",
+    "contact.lead": "Wir sind für Sie da",
+    "contact.ours": "Unsere Kontaktdaten",
+    "contact.send": "Senden Sie uns eine Nachricht",
+    "contact.map": "Karte mit dem Standort von Nordtec",
+    "form.name": "Name",
+    "form.email": "E-Mail",
+    "form.subject": "Betreff",
+    "form.message": "Nachricht",
+    "form.submit": "Nachricht senden",
+    "form.sending": "Wird gesendet…",
+    "form.success": "Vielen Dank! Ihre Nachricht wurde gesendet. Wir melden uns in Kürze bei Ihnen.",
+    "form.alsoEmail": "Sie können uns auch eine E-Mail an {email} senden.",
+    "form.quote": "Angebotsanfrage",
+    "form.quoteMachine": "Angebotsanfrage: {machine}",
+    "form.question": "Frage",
+    "form.questionMachine": "Frage zu: {machine}",
+    "form.phone": "Telefon (optional)",
+    "form.err.phone": "Bitte geben Sie eine gültige Telefonnummer ein.",
+    "form.err.captcha": "Bitte bestätigen Sie, dass Sie kein Roboter sind.",
+    "form.err.default": "Ihre Nachricht konnte nicht gesendet werden.",
+    "form.err.reload": "Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
+    "form.err.fields": "Bitte füllen Sie alle Felder aus.",
+    "form.err.email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "form.err.rate": "Zu viele Nachrichten. Bitte versuchen Sie es später erneut.",
+
+    "machines.title": "Unsere Maschinen",
+    "machines.lead": "Finden Sie die ideale Lösung für Ihre Anforderungen",
+    "machines.categories": "Kategorien",
+    "machines.all": "Alle Maschinen",
+    "machines.next": "Weiter",
+    "machines.pages": "Seiten",
+    "card.details": "Details ansehen",
+    "carousel.aria": "Ausgewählte Maschinen",
+    "carousel.readMore": "Mehr erfahren",
+    "carousel.prev": "Zurück",
+    "carousel.next": "Weiter",
+    "carousel.slide": "Folie {n}",
+    "cat.product": "{n} Produkt",
+    "cat.products": "{n} Produkte",
+
+    "detail.notFound": "Maschine nicht gefunden",
+    "detail.back": "Zurück zu allen Maschinen",
+    "detail.techData": "Technische Daten",
+    "detail.highlights": "Highlights",
+    "detail.ask": "Frage stellen",
+    "detail.phone": "Telefon",
+    "detail.email": "E-Mail",
+    "detail.features": "Merkmale",
+    "detail.inDetail": "{name} im Detail",
+    "detail.gallery": "Galerie",
+    "detail.galleryTitle": "Bildergalerie",
+    "detail.openImage": "Bild {n} öffnen",
+    "detail.image": "Bild {n}",
+    "detail.related": "Ähnliche Maschinen",
+    "detail.seeAllIn": "Alle in {cat} ansehen",
+    "lightbox.close": "Schließen",
+  },
+
+  pt: {
+    "page.home": "Nordtec | Máquinas para acabamento de superfícies industriais",
+    "page.machines": "Máquinas | Nordtec",
+    "page.services": "Serviços | Nordtec",
+    "page.about": "Sobre nós | Nordtec",
+    "page.contact": "Fale conosco | Nordtec",
+
+    "nav.home": "Início",
+    "nav.machines": "Máquinas",
+    "nav.services": "Serviços",
+    "nav.about": "Sobre nós",
+    "nav.contact": "Contato",
+    "nav.quote": "Solicitar orçamento",
+    "nav.openMenu": "Abrir menu",
+    "nav.closeMenu": "Fechar menu",
+    "lang.label": "Idioma",
+
+    "footer.about": "Máquinas e consumíveis para acabamento de superfícies industriais. Engenharia alemã desde 2004. Empresa fictícia – demonstração de portfólio.",
+    "footer.navigation": "Navegação",
+    "footer.contact": "Contato",
+    "footer.follow": "Siga-nos",
+    "footer.rights": "Todos os direitos reservados.",
+    "footer.location": "Stuttgart, Alemanha",
+    "toTop": "Voltar ao topo",
+
+    "cta.title": "Pronto para otimizar sua linha de produção?",
+    "cta.text": "Fale com nossa equipe e receba uma proposta sob medida para a sua fábrica.",
+    "cta.quote": "Solicitar orçamento",
+    "cta.email": "Enviar e-mail",
+
+    "home.eyebrow": "Engenharia alemã desde 2004",
+    "home.title": "Soluções inovadoras para acabamento de superfícies industriais",
+    "home.lead": "Tecnologia de ponta, eficiência e suporte especializado para a sua produção",
+    "home.viewMachines": "Conheça nossas máquinas",
+    "home.quote": "Solicitar orçamento",
+    "stats.aria": "A Nordtec em números",
+    "stats.founded": "Fundada na Alemanha",
+    "stats.years": "Anos de experiência",
+    "stats.machines": "Máquinas e equipamentos de teste",
+    "stats.worldwide": "Mundial",
+    "stats.worldwideText": "Instalações na Europa, Ásia e Américas",
+    "offer.eyebrow": "O que oferecemos",
+    "offer.title": "Equipamentos para cada etapa do acabamento de superfícies",
+    "offer.lead": "Do manuseio automático à limpeza, galvanoplastia, polimento e controle de qualidade — linhas completas projetadas para trabalhar juntas.",
+    "featured.eyebrow": "Destaques",
+    "featured.title": "Nossas máquinas",
+    "featured.seeAll": "Ver todas as máquinas",
+    "why.eyebrow": "Por que a Nordtec",
+    "why.title": "Uma parceira durante toda a vida útil dos seus equipamentos",
+    "why.p1": "Todos os nossos equipamentos e produtos se destacam pela qualidade e pela tecnologia avançada. Nossos parceiros se beneficiam de projetos simples e fáceis de manter, com baixos custos de operação e manutenção.",
+    "why.p2": "Assim, eles podem entregar produtos de alta qualidade aos seus próprios clientes no menor tempo possível.",
+    "why.services": "Nossos serviços",
+
+    "svc.consulting.title": "Consultoria e projeto",
+    "svc.consulting.text": "Analisamos suas necessidades e desenvolvemos soluções personalizadas para a sua produção.",
+    "svc.install.title": "Instalação e treinamento",
+    "svc.install.text": "Garantimos a instalação correta dos equipamentos e treinamos sua equipe para operar com segurança e eficiência.",
+    "svc.install.short": "Instalação correta dos equipamentos e treinamento para que sua equipe opere com segurança e eficiência.",
+    "svc.maint.title": "Manutenção preventiva e corretiva",
+    "svc.maint.text": "Oferecemos suporte completo para corrigir falhas rapidamente e evitar paradas, garantindo máxima eficiência e vida útil para os seus equipamentos.",
+    "svc.maint.shortTitle": "Manutenção preventiva",
+    "svc.maint.short": "Suporte rápido para corrigir falhas e evitar paradas, prolongando a vida útil dos seus equipamentos.",
+
+    "services.title": "Nossos serviços",
+    "services.lead": "Suporte completo para a sua produção, do planejamento à manutenção",
+    "services.why": "Por que contratar nossos serviços?",
+    "services.team": "Equipe técnica qualificada",
+    "services.quick": "Resposta rápida",
+    "services.cost": "Otimização de custos",
+
+    "about.title": "Sobre a Nordtec",
+    "about.lead": "Qualidade, inovação e parceria na indústria",
+    "about.eyebrow": "Desde 2004",
+    "about.history": "Nossa história",
+    "about.intro": "Fundada em Stuttgart em 2004, a Nordtec Machinery projeta máquinas e acessórios para acabamento de superfícies industriais. O que começou como uma pequena oficina de unidades de polimento é hoje um fornecedor de linhas completas, vendidas diretamente e por parceiros em vários países.",
+    "about.t1.title": "2004 – Fundação da Nordtec Machinery",
+    "about.t1.text": "A Nordtec é fundada em Stuttgart para construir polidoras compactas e confiáveis para metalúrgicas da região.",
+    "about.t2.title": "2011 – Primeiras instalações no exterior",
+    "about.t2.text": "Com um novo departamento de exportação, a Nordtec entrega linhas completas para clientes na Europa, Ásia e América do Sul.",
+    "about.t3.title": "2019 – Máquinas conectadas e rede de assistência",
+    "about.t3.text": "A Nordtec lança sua linha de máquinas conectadas com diagnóstico remoto e cria uma rede de parceiros para assistência rápida no local.",
+    "about.people": "Pessoas",
+    "about.team": "Nossa equipe",
+    "about.name": "Nome",
+    "about.position": "Cargo",
+
+    "contact.title": "Fale conosco",
+    "contact.lead": "Estamos prontos para atender você",
+    "contact.ours": "Nossos contatos",
+    "contact.send": "Envie sua mensagem",
+    "contact.map": "Mapa com a localização da Nordtec",
+    "form.name": "Nome",
+    "form.email": "E-mail",
+    "form.subject": "Assunto",
+    "form.message": "Mensagem",
+    "form.submit": "Enviar mensagem",
+    "form.sending": "Enviando…",
+    "form.success": "Obrigado! Sua mensagem foi enviada. Entraremos em contato em breve.",
+    "form.alsoEmail": "Você também pode nos escrever para {email}.",
+    "form.quote": "Solicitação de orçamento",
+    "form.quoteMachine": "Solicitação de orçamento: {machine}",
+    "form.question": "Dúvida",
+    "form.questionMachine": "Dúvida sobre: {machine}",
+    "form.phone": "Telefone (opcional)",
+    "form.err.phone": "Digite um número de telefone válido.",
+    "form.err.captcha": "Confirme que você não é um robô.",
+    "form.err.default": "Não foi possível enviar sua mensagem.",
+    "form.err.reload": "Recarregue a página e tente novamente.",
+    "form.err.fields": "Preencha todos os campos.",
+    "form.err.email": "Digite um endereço de e-mail válido.",
+    "form.err.rate": "Muitas mensagens enviadas. Tente novamente mais tarde.",
+
+    "machines.title": "Nossas máquinas",
+    "machines.lead": "Encontre a solução ideal para as suas necessidades",
+    "machines.categories": "Categorias",
+    "machines.all": "Todas as máquinas",
+    "machines.next": "Próxima",
+    "machines.pages": "Páginas",
+    "card.details": "Ver detalhes",
+    "carousel.aria": "Máquinas em destaque",
+    "carousel.readMore": "Saiba mais",
+    "carousel.prev": "Anterior",
+    "carousel.next": "Próximo",
+    "carousel.slide": "Slide {n}",
+    "cat.product": "{n} produto",
+    "cat.products": "{n} produtos",
+
+    "detail.notFound": "Máquina não encontrada",
+    "detail.back": "Voltar para todas as máquinas",
+    "detail.techData": "Dados técnicos",
+    "detail.highlights": "Destaques",
+    "detail.ask": "Tirar uma dúvida",
+    "detail.phone": "Telefone",
+    "detail.email": "E-mail",
+    "detail.features": "Recursos",
+    "detail.inDetail": "{name} em detalhes",
+    "detail.gallery": "Galeria",
+    "detail.galleryTitle": "Galeria de fotos",
+    "detail.openImage": "Abrir imagem {n}",
+    "detail.image": "imagem {n}",
+    "detail.related": "Máquinas relacionadas",
+    "detail.seeAllIn": "Ver todas em {cat}",
+    "lightbox.close": "Fechar",
+  },
+};
+
+/* Idioma atual: ?lang= na URL → escolha salva → idioma do navegador → inglês */
+const LANG = (() => {
+  const codes = LANGS.map((l) => l.code);
+  const fromUrl = new URLSearchParams(location.search).get("lang");
+  if (codes.includes(fromUrl)) {
+    try { localStorage.setItem("catalog-lang", fromUrl); } catch (e) {}
+    return fromUrl;
+  }
+  try {
+    const saved = localStorage.getItem("catalog-lang");
+    if (codes.includes(saved)) return saved;
+  } catch (e) {}
+  for (const l of navigator.languages || [navigator.language || ""]) {
+    const code = String(l).slice(0, 2).toLowerCase();
+    if (codes.includes(code)) return code;
+  }
+  return "en";
+})();
+
+/* Texto traduzido. Ex.: t("cat.products", { n: 4 }) */
+function t(key, vars) {
+  let s = (I18N[LANG] && I18N[LANG][key]) || I18N.en[key] || key;
+  if (vars) s = s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
+  return s;
+}
+
+/* Troca os textos marcados no HTML com data-i18n="chave" (e data-i18n-attr="atributo:chave") */
+function applyStaticTranslations(root = document) {
+  document.documentElement.lang = LANGS.find((l) => l.code === LANG).html;
+  const titleKey = document.body.dataset.titleKey;
+  if (titleKey) document.title = t(titleKey);
+  if (LANG === "en") return; // o HTML já está em inglês
+  root.querySelectorAll("[data-i18n]").forEach((el) => {
+    const s = I18N[LANG][el.dataset.i18n];
+    if (s) el.textContent = s;
+  });
+  root.querySelectorAll("[data-i18n-attr]").forEach((el) => {
+    el.dataset.i18nAttr.split(";").forEach((pair) => {
+      const [attr, key] = pair.split(":").map((x) => x.trim());
+      const s = I18N[LANG][key];
+      if (attr && s) el.setAttribute(attr, s);
+    });
+  });
+}
+
+/* Muda o idioma e recarrega a página */
+function setLang(code) {
+  try { localStorage.setItem("catalog-lang", code); } catch (e) {}
+  const url = new URL(location.href);
+  url.searchParams.delete("lang");
+  location.href = url.toString();
+}

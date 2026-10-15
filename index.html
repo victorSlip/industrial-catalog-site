@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nordtec | Industrial surface finishing machines</title>
+  <meta name="description" content="Nordtec Machinery designs machines for industrial surface finishing. Fictional company – portfolio demo.">
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="img/favicon.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body data-page="home" data-title-key="page.home">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow eyebrow--light" data-i18n="home.eyebrow">German engineering since 2004</p>
+        <h1 data-i18n="home.title">Innovative solutions for industrial surface finishing</h1>
+        <p class="hero__lead" data-i18n="home.lead">Cutting-edge technology, efficiency, and specialized support for your production</p>
+        <div class="hero__actions">
+          <a class="btn btn--lg" href="machines" data-i18n="home.viewMachines">View our machines</a>
+          <a class="btn btn--lg btn--ghost" href="contact?subject=quote" data-i18n="home.quote">Request a quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Números da empresa (sobrepõe a parte de baixo do banner) -->
+    <section class="stats" aria-label="Nordtec in numbers" data-i18n-attr="aria-label:stats.aria">
+      <div class="container">
+        <ul class="stats__grid">
+          <li><strong>2004</strong><span data-i18n="stats.founded">Founded in Germany</span></li>
+          <li><strong data-years>20+</strong><span data-i18n="stats.years">Years of experience</span></li>
+          <li><strong data-machine-count>6</strong><span data-i18n="stats.machines">Machines and testing devices</span></li>
+          <li><strong data-i18n="stats.worldwide">Worldwide</strong><span data-i18n="stats.worldwideText">Installations in Europe, Asia and the Americas</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="offer.eyebrow">What we offer</p>
+          <h2 class="section-title" data-i18n="offer.title">Equipment for every step of surface finishing</h2>
+          <p class="section-lead" data-i18n="offer.lead">From automatic handling to cleaning, plating, polishing and quality control — complete lines designed to work together.</p>
+        </div>
+        <div class="cat-grid" id="category-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <p class="eyebrow" data-i18n="featured.eyebrow">Featured</p>
+            <h2 class="section-title" data-i18n="featured.title">Our machines</h2>
+          </div>
+          <a class="link-arrow" href="machines" data-i18n="featured.seeAll">See all machines</a>
+        </div>
+        <div class="carousel" id="carousel" aria-label="Featured machines" data-i18n-attr="aria-label:carousel.aria"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <p class="eyebrow" data-i18n="why.eyebrow">Why Nordtec</p>
+          <h2 class="section-title" data-i18n="why.title">A partner for the whole life of your equipment</h2>
+          <p data-i18n="why.p1">All our equipment and products excel in quality and progressive technology. Business partners benefit from uncomplicated, service-friendly designs and from low working and maintenance costs.</p>
+          <p data-i18n="why.p2">This enables them in turn to deliver high quality products in the shortest possible time to their own customers.</p>
+          <a class="btn" href="services" data-i18n="why.services">Our services</a>
+        </div>
+        <ul class="feature-list">
+          <li>
+            <span class="feature-list__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3.2"/><path d="M10.3 2.5h3.4l.5 2.6 1.9.8 2.2-1.5 2.4 2.4-1.5 2.2.8 1.9 2.6.5v3.4l-2.6.5-.8 1.9 1.5 2.2-2.4 2.4-2.2-1.5-1.9.8-.5 2.6h-3.4l-.5-2.6-1.9-.8-2.2 1.5-2.4-2.4 1.5-2.2-.8-1.9-2.6-.5v-3.4l2.6-.5.8-1.9-1.5-2.2 2.4-2.4 2.2 1.5 1.9-.8Z"/></svg></span>
+            <div><h3 data-i18n="svc.consulting.title">Consulting and design</h3><p data-i18n="svc.consulting.text">We analyze your needs and develop customized solutions for your production.</p></div>
+          </li>
+          <li>
+            <span class="feature-list__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h4L20 8a1.5 1.5 0 0 0-4-4L3 17v4"/><path d="m14.5 5.5 4 4"/><path d="M12 8 7 3 3 7l5 5"/><path d="M7 8 5.5 9.5"/><path d="m16 12 5 5-4 4-5-5"/><path d="M16 17l-1.5 1.5"/></svg></span>
+            <div><h3 data-i18n="svc.install.title">Installation and training</h3><p data-i18n="svc.install.short">Correct installation of equipment and training so your team operates safely and efficiently.</p></div>
+          </li>
+          <li>
+            <span class="feature-list__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.5 19 5v6c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V5Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <div><h3 data-i18n="svc.maint.shortTitle">Preventive maintenance</h3><p data-i18n="svc.maint.short">Fast support to fix faults and prevent downtime, extending the service life of your equipment.</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="cta-band"></div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/i18n.js?v=1"></script>
+  <script src="js/main.js?v=1"></script>
+</body>
+</html>

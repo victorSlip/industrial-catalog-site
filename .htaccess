@@ -1,0 +1,18 @@
+# Endereços limpos: /machines em vez de /machines.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Endereços antigos com .html redirecionam para o endereço limpo
+# (links salvos e o Google continuam funcionando)
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?]
+RewriteRule ^ /%1 [R=301,L,NE]
+RewriteCond %{THE_REQUEST} \s/+([^?\s]+)\.html[\s?]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# /machines abre machines.html (sem mostrar o .html)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/.]+)$ $1.html [L]
+</IfModule>

@@ -1,0 +1,13 @@
+# Gerados pelo painel no servidor (não versionar)
+admin/private/config.php
+admin/private/attempts.json
+data/backups/*.json
+img/machines/_deleted/
+admin/private/settings.json
+admin/private/messages.json
+admin/private/contact-rate.json
+admin/private/mail-log.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

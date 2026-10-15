@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us | Nordtec</title>
+  <meta name="description" content="Contact Nordtec Machinery in Stuttgart, Germany.">
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="img/favicon.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body data-page="contact" data-title-key="page.contact">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 data-i18n="contact.title">Contact us</h1>
+        <p data-i18n="contact.lead">We are ready to serve you</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-box">
+          <h2 data-i18n="contact.ours">Our contacts</h2>
+          <ul class="contact-list" id="contact-list"></ul>
+          <iframe title="Nordtec location map" data-i18n-attr="title:contact.map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Stuttgart%2C%20Germany&z=15&output=embed"></iframe>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <h2 data-i18n="contact.send">Send your message</h2>
+          <div class="field-row">
+            <div class="field"><label for="f-name" data-i18n="form.name">Name</label><input id="f-name" name="name" type="text" required autocomplete="name"></div>
+            <div class="field"><label for="f-email" data-i18n="form.email">E-mail</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label for="f-phone" data-i18n="form.phone">Phone (optional)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="40"></div>
+            <div class="field"><label for="f-subject" data-i18n="form.subject">Subject</label><input id="f-subject" name="subject" type="text" required></div>
+          </div>
+          <div class="field"><label for="f-message" data-i18n="form.message">Message</label><textarea id="f-message" name="message" required maxlength="5000"></textarea></div>
+          <!-- Anti-spam: campo invisível (robôs preenchem) e horário em que a página abriu -->
+          <div class="hp-field" aria-hidden="true"><label>Website <input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+          <input type="hidden" name="ts" value="">
+          <!-- CAPTCHA: aparece aqui quando configurado no painel -->
+          <div class="captcha" id="captcha"></div>
+          <button class="btn btn--lg" type="submit" data-i18n="form.submit">Send message</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/i18n.js?v=1"></script>
+  <script src="js/main.js?v=1"></script>
+</body>
+</html>

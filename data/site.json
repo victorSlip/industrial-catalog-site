@@ -1,0 +1,883 @@
+{
+    "contact": {
+        "email": "info@example.com",
+        "phone": "+49 711 000 0000",
+        "address": "Nordtec Machinery GmbH – Industriestraße 1, 70565 Stuttgart, Germany",
+        "hours": "Open Monday through Friday from 8 a.m. to 5 p.m.",
+        "social": {
+            "facebook": "",
+            "instagram": "",
+            "x": "",
+            "linkedin": ""
+        },
+        "translations": {
+            "de": {
+                "hours": "Geöffnet von Montag bis Freitag, 8 bis 17 Uhr"
+            },
+            "pt": {
+                "hours": "Atendimento de segunda a sexta, das 8h às 17h"
+            }
+        },
+        "address2": ""
+    },
+    "categories": [
+        {
+            "id": "automation",
+            "name": "Automation",
+            "cover": "autoload-500",
+            "translations": {
+                "de": {
+                    "name": "Automatisierung"
+                },
+                "pt": {
+                    "name": "Automação"
+                }
+            }
+        },
+        {
+            "id": "grinding-polishing",
+            "name": "Grinding and Polishing",
+            "cover": "polish-x4",
+            "translations": {
+                "de": {
+                    "name": "Schleifen und Polieren"
+                },
+                "pt": {
+                    "name": "Retífica e polimento"
+                }
+            }
+        },
+        {
+            "id": "plating",
+            "name": "Electroplating",
+            "cover": "plate-c200",
+            "translations": {
+                "de": {
+                    "name": "Galvanik"
+                },
+                "pt": {
+                    "name": "Galvanoplastia"
+                }
+            }
+        },
+        {
+            "id": "cleaning",
+            "name": "Cleaning",
+            "cover": "clean-w1",
+            "translations": {
+                "de": {
+                    "name": "Reinigung"
+                },
+                "pt": {
+                    "name": "Limpeza"
+                }
+            }
+        },
+        {
+            "id": "quality-control",
+            "name": "Quality Control",
+            "cover": "gauge-r",
+            "translations": {
+                "de": {
+                    "name": "Qualitätskontrolle"
+                },
+                "pt": {
+                    "name": "Controle de qualidade"
+                }
+            }
+        }
+    ],
+    "machines": [
+        {
+            "id": "autoload-500",
+            "category": "automation",
+            "name": "AutoLoad 500",
+            "subtitle": "Automatic loading and transfer system for finishing lines",
+            "description": "AutoLoad 500 moves parts between the stations of a finishing line without manual handling. A servo-driven gantry picks up, transfers and places each part, while the line controller schedules every move.\n\nThe modular frame can be extended station by station, so the system grows together with your production.",
+            "image": "main.webp",
+            "featured": true,
+            "highlights": [
+                "Loads up to 500 kg per part",
+                "Servo-driven gantry with precise positioning",
+                "Modular frame, extendable station by station",
+                "Integrates with any Nordtec line controller"
+            ],
+            "specs": [
+                [
+                    "Max. load",
+                    "500 kg"
+                ],
+                [
+                    "Travel speed",
+                    "up to 60 m/min"
+                ],
+                [
+                    "Positioning accuracy",
+                    "± 0.5 mm"
+                ],
+                [
+                    "Power supply",
+                    "400 V / 50 Hz, 7.5 kW"
+                ]
+            ],
+            "featuresTitle": "Designed for unattended operation",
+            "features": [
+                {
+                    "title": "Servo gantry",
+                    "image": "detail.webp",
+                    "items": [
+                        "Smooth acceleration protects sensitive parts",
+                        "Automatic homing after power loss"
+                    ]
+                },
+                {
+                    "title": "Touch control panel",
+                    "image": "panel.webp",
+                    "items": [
+                        "Recipe management for each part type",
+                        "Remote diagnostics via Ethernet"
+                    ]
+                }
+            ],
+            "gallery": [
+                "side.webp"
+            ],
+            "translations": {
+                "de": {
+                    "subtitle": "Automatisches Lade- und Transfersystem für Bearbeitungslinien",
+                    "description": "Das AutoLoad 500 bewegt Teile ohne manuelles Handling zwischen den Stationen einer Bearbeitungslinie. Ein servogetriebenes Portal nimmt jedes Teil auf, transportiert es und setzt es ab, während die Liniensteuerung jede Bewegung plant.\n\nDer modulare Rahmen lässt sich Station für Station erweitern – so wächst das System mit Ihrer Produktion.",
+                    "highlights": [
+                        "Lasten bis 500 kg pro Teil",
+                        "Servogetriebenes Portal mit präziser Positionierung",
+                        "Modularer Rahmen, stationsweise erweiterbar",
+                        "Integration in jede Nordtec-Liniensteuerung"
+                    ],
+                    "specs": [
+                        [
+                            "Max. Last",
+                            "500 kg"
+                        ],
+                        [
+                            "Verfahrgeschwindigkeit",
+                            "bis 60 m/min"
+                        ],
+                        [
+                            "Positioniergenauigkeit",
+                            "± 0,5 mm"
+                        ],
+                        [
+                            "Stromversorgung",
+                            "400 V / 50 Hz, 7,5 kW"
+                        ]
+                    ],
+                    "featuresTitle": "Für den mannlosen Betrieb ausgelegt",
+                    "features": [
+                        {
+                            "title": "Servoportal",
+                            "items": [
+                                "Sanfte Beschleunigung schont empfindliche Teile",
+                                "Automatische Referenzfahrt nach Stromausfall"
+                            ]
+                        },
+                        {
+                            "title": "Touch-Bedienfeld",
+                            "items": [
+                                "Rezeptverwaltung für jeden Teiletyp",
+                                "Ferndiagnose über Ethernet"
+                            ]
+                        }
+                    ]
+                },
+                "pt": {
+                    "subtitle": "Sistema automático de carga e transferência para linhas de acabamento",
+                    "description": "O AutoLoad 500 movimenta as peças entre as estações de uma linha de acabamento sem manuseio manual. Um pórtico com servomotores pega, transfere e posiciona cada peça, enquanto o controlador da linha programa cada movimento.\n\nA estrutura modular pode ser ampliada estação por estação, e o sistema cresce junto com a sua produção.",
+                    "highlights": [
+                        "Carga de até 500 kg por peça",
+                        "Pórtico com servomotores e posicionamento preciso",
+                        "Estrutura modular, ampliável estação por estação",
+                        "Integra-se a qualquer controlador de linha Nordtec"
+                    ],
+                    "specs": [
+                        [
+                            "Carga máx.",
+                            "500 kg"
+                        ],
+                        [
+                            "Velocidade de deslocamento",
+                            "até 60 m/min"
+                        ],
+                        [
+                            "Precisão de posicionamento",
+                            "± 0,5 mm"
+                        ],
+                        [
+                            "Alimentação",
+                            "400 V / 50 Hz, 7,5 kW"
+                        ]
+                    ],
+                    "featuresTitle": "Projetado para operar sem supervisão",
+                    "features": [
+                        {
+                            "title": "Pórtico com servomotores",
+                            "items": [
+                                "Aceleração suave protege peças sensíveis",
+                                "Retorno automático à posição inicial após queda de energia"
+                            ]
+                        },
+                        {
+                            "title": "Painel touch",
+                            "items": [
+                                "Receitas para cada tipo de peça",
+                                "Diagnóstico remoto via Ethernet"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "polish-x4",
+            "category": "grinding-polishing",
+            "name": "Polish X4",
+            "subtitle": "Four-station grinding and polishing machine",
+            "description": "Polish X4 combines four independent tool stations in one compact machine. Each station can work with abrasive belts or polishing wheels, so roughing and fine finishing happen in a single cycle.\n\nContact pressure, speed and feed are set per tool in the control panel, giving reproducible results from the first to the last part.",
+            "image": "main.webp",
+            "featured": true,
+            "highlights": [
+                "4 independent tool stations",
+                "Abrasive belts or polishing wheels on every station",
+                "Reproducible surface roughness",
+                "Integrated dust and coolant extraction"
+            ],
+            "specs": [
+                [
+                    "Workpiece length",
+                    "up to 1,500 mm"
+                ],
+                [
+                    "Contact pressure",
+                    "2 – 40 kg per tool"
+                ],
+                [
+                    "Cycle time",
+                    "6 – 12 min per part"
+                ],
+                [
+                    "Power consumption",
+                    "5.5 kW"
+                ]
+            ],
+            "featuresTitle": "The ideal finish for every surface",
+            "features": [
+                {
+                    "title": "Independent tool stations",
+                    "image": "detail.webp",
+                    "items": [
+                        "Programmable parameters for each tool",
+                        "Automatic compensation of belt wear"
+                    ]
+                },
+                {
+                    "title": "Control panel",
+                    "image": "panel.webp",
+                    "items": [
+                        "Fully automatic or manual operation",
+                        "Stores up to 200 recipes"
+                    ]
+                }
+            ],
+            "gallery": [
+                "side.webp"
+            ],
+            "translations": {
+                "de": {
+                    "subtitle": "Schleif- und Poliermaschine mit vier Stationen",
+                    "description": "Die Polish X4 vereint vier unabhängige Werkzeugstationen in einer kompakten Maschine. Jede Station arbeitet wahlweise mit Schleifbändern oder Polierscheiben – Vor- und Feinbearbeitung erfolgen in einem einzigen Zyklus.\n\nAnpressdruck, Drehzahl und Vorschub werden pro Werkzeug am Bedienfeld eingestellt und liefern reproduzierbare Ergebnisse vom ersten bis zum letzten Teil.",
+                    "highlights": [
+                        "4 unabhängige Werkzeugstationen",
+                        "Schleifbänder oder Polierscheiben an jeder Station",
+                        "Reproduzierbare Oberflächenrauheit",
+                        "Integrierte Staub- und Kühlmittelabsaugung"
+                    ],
+                    "specs": [
+                        [
+                            "Werkstücklänge",
+                            "bis 1.500 mm"
+                        ],
+                        [
+                            "Anpressdruck",
+                            "2 – 40 kg pro Werkzeug"
+                        ],
+                        [
+                            "Zykluszeit",
+                            "6 – 12 min pro Teil"
+                        ],
+                        [
+                            "Leistungsaufnahme",
+                            "5,5 kW"
+                        ]
+                    ],
+                    "featuresTitle": "Das ideale Finish für jede Oberfläche",
+                    "features": [
+                        {
+                            "title": "Unabhängige Werkzeugstationen",
+                            "items": [
+                                "Programmierbare Parameter für jedes Werkzeug",
+                                "Automatischer Ausgleich des Bandverschleißes"
+                            ]
+                        },
+                        {
+                            "title": "Bedienfeld",
+                            "items": [
+                                "Vollautomatischer oder manueller Betrieb",
+                                "Speichert bis zu 200 Rezepte"
+                            ]
+                        }
+                    ]
+                },
+                "pt": {
+                    "subtitle": "Retífica e polidora com quatro estações",
+                    "description": "A Polish X4 reúne quatro estações de ferramenta independentes em uma máquina compacta. Cada estação trabalha com cintas abrasivas ou rodas de polimento, então o desbaste e o acabamento fino acontecem em um único ciclo.\n\nPressão de contato, velocidade e avanço são ajustados por ferramenta no painel, com resultados reproduzíveis da primeira à última peça.",
+                    "highlights": [
+                        "4 estações de ferramenta independentes",
+                        "Cintas abrasivas ou rodas de polimento em todas as estações",
+                        "Rugosidade superficial reproduzível",
+                        "Exaustão de pó e de refrigerante integrada"
+                    ],
+                    "specs": [
+                        [
+                            "Comprimento da peça",
+                            "até 1.500 mm"
+                        ],
+                        [
+                            "Pressão de contato",
+                            "2 – 40 kg por ferramenta"
+                        ],
+                        [
+                            "Tempo de ciclo",
+                            "6 – 12 min por peça"
+                        ],
+                        [
+                            "Consumo de energia",
+                            "5,5 kW"
+                        ]
+                    ],
+                    "featuresTitle": "O acabamento ideal para cada superfície",
+                    "features": [
+                        {
+                            "title": "Estações de ferramenta independentes",
+                            "items": [
+                                "Parâmetros programáveis para cada ferramenta",
+                                "Compensação automática do desgaste das cintas"
+                            ]
+                        },
+                        {
+                            "title": "Painel de controle",
+                            "items": [
+                                "Operação totalmente automática ou manual",
+                                "Armazena até 200 receitas"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "polish-mini",
+            "category": "grinding-polishing",
+            "name": "Polish Mini",
+            "subtitle": "Compact polishing unit for small parts",
+            "description": "Polish Mini brings automatic polishing to small workshops and laboratories. Parts are clamped in a rotating fixture and polished by a single oscillating head.\n\nWith a footprint of less than one square metre, it fits next to any workbench and runs on a standard power outlet.",
+            "image": "main.webp",
+            "featured": false,
+            "highlights": [
+                "Footprint under 1 m²",
+                "Runs on a standard 230 V outlet",
+                "Quick-change fixtures",
+                "Quiet operation below 70 dB"
+            ],
+            "specs": [
+                [
+                    "Max. part diameter",
+                    "300 mm"
+                ],
+                [
+                    "Spindle speed",
+                    "50 – 1,500 rpm"
+                ],
+                [
+                    "Power supply",
+                    "230 V / 50 Hz, 1.5 kW"
+                ],
+                [
+                    "Weight",
+                    "180 kg"
+                ]
+            ],
+            "featuresTitle": "Small machine, professional finish",
+            "features": [
+                {
+                    "title": "Oscillating head",
+                    "image": "detail.webp",
+                    "items": [
+                        "Even finish without manual effort",
+                        "Adjustable stroke and frequency"
+                    ]
+                }
+            ],
+            "gallery": [],
+            "translations": {
+                "de": {
+                    "subtitle": "Kompakte Poliereinheit für Kleinteile",
+                    "description": "Die Polish Mini bringt automatisches Polieren in kleine Werkstätten und Labore. Die Teile werden in einer rotierenden Aufnahme gespannt und von einem oszillierenden Kopf poliert.\n\nMit einer Stellfläche von weniger als einem Quadratmeter passt sie neben jede Werkbank und läuft an einer normalen Steckdose.",
+                    "highlights": [
+                        "Stellfläche unter 1 m²",
+                        "Betrieb an einer normalen 230-V-Steckdose",
+                        "Schnellwechsel-Aufnahmen",
+                        "Leiser Betrieb unter 70 dB"
+                    ],
+                    "specs": [
+                        [
+                            "Max. Teiledurchmesser",
+                            "300 mm"
+                        ],
+                        [
+                            "Spindeldrehzahl",
+                            "50 – 1.500 min⁻¹"
+                        ],
+                        [
+                            "Stromversorgung",
+                            "230 V / 50 Hz, 1,5 kW"
+                        ],
+                        [
+                            "Gewicht",
+                            "180 kg"
+                        ]
+                    ],
+                    "featuresTitle": "Kleine Maschine, professionelles Finish",
+                    "features": [
+                        {
+                            "title": "Oszillierender Kopf",
+                            "items": [
+                                "Gleichmäßiges Finish ohne Handarbeit",
+                                "Einstellbarer Hub und Frequenz"
+                            ]
+                        }
+                    ]
+                },
+                "pt": {
+                    "subtitle": "Unidade de polimento compacta para peças pequenas",
+                    "description": "A Polish Mini leva o polimento automático para pequenas oficinas e laboratórios. As peças são fixadas em um suporte giratório e polidas por um único cabeçote oscilante.\n\nOcupando menos de um metro quadrado, ela cabe ao lado de qualquer bancada e funciona em uma tomada comum.",
+                    "highlights": [
+                        "Ocupa menos de 1 m²",
+                        "Funciona em tomada comum de 230 V",
+                        "Suportes de troca rápida",
+                        "Operação silenciosa, abaixo de 70 dB"
+                    ],
+                    "specs": [
+                        [
+                            "Diâmetro máx. da peça",
+                            "300 mm"
+                        ],
+                        [
+                            "Rotação do eixo",
+                            "50 – 1.500 rpm"
+                        ],
+                        [
+                            "Alimentação",
+                            "230 V / 50 Hz, 1,5 kW"
+                        ],
+                        [
+                            "Peso",
+                            "180 kg"
+                        ]
+                    ],
+                    "featuresTitle": "Máquina pequena, acabamento profissional",
+                    "features": [
+                        {
+                            "title": "Cabeçote oscilante",
+                            "items": [
+                                "Acabamento uniforme sem esforço manual",
+                                "Curso e frequência ajustáveis"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "plate-c200",
+            "category": "plating",
+            "name": "Plate C200",
+            "subtitle": "Automatic electroplating line",
+            "description": "Plate C200 is a complete electroplating line with tanks for pre-treatment, plating and rinsing. A programmable controller manages current density, bath temperature and immersion times for every part.\n\nTanks, rectifiers and exhaust are delivered as one pre-tested unit, which reduces installation time on site.",
+            "image": "main.webp",
+            "featured": true,
+            "highlights": [
+                "Complete line: pre-treatment, plating and rinsing",
+                "Programmable current density and bath temperature",
+                "Delivered pre-tested as one unit",
+                "Integrated fume exhaust"
+            ],
+            "specs": [
+                [
+                    "Tank volume",
+                    "200 l per tank"
+                ],
+                [
+                    "Rectifier",
+                    "up to 1,000 A"
+                ],
+                [
+                    "Bath temperature",
+                    "20 – 60 °C"
+                ],
+                [
+                    "Footprint",
+                    "6.5 × 2.2 m"
+                ]
+            ],
+            "featuresTitle": "Consistent layers, part after part",
+            "features": [
+                {
+                    "title": "Process tanks",
+                    "image": "detail.webp",
+                    "items": [
+                        "Polypropylene tanks resistant to acids",
+                        "Level and temperature sensors in every tank"
+                    ]
+                },
+                {
+                    "title": "Line controller",
+                    "image": "panel.webp",
+                    "items": [
+                        "Recipes per part type",
+                        "Production log exportable as CSV"
+                    ]
+                }
+            ],
+            "gallery": [
+                "side.webp"
+            ],
+            "translations": {
+                "de": {
+                    "subtitle": "Automatische Galvaniklinie",
+                    "description": "Die Plate C200 ist eine komplette Galvaniklinie mit Becken für Vorbehandlung, Beschichtung und Spülen. Eine programmierbare Steuerung regelt Stromdichte, Badtemperatur und Tauchzeiten für jedes Teil.\n\nBecken, Gleichrichter und Absaugung werden als vorab geprüfte Einheit geliefert, was die Montagezeit vor Ort verkürzt.",
+                    "highlights": [
+                        "Komplette Linie: Vorbehandlung, Beschichtung und Spülen",
+                        "Programmierbare Stromdichte und Badtemperatur",
+                        "Vorab geprüft als eine Einheit geliefert",
+                        "Integrierte Dampfabsaugung"
+                    ],
+                    "specs": [
+                        [
+                            "Beckenvolumen",
+                            "200 l pro Becken"
+                        ],
+                        [
+                            "Gleichrichter",
+                            "bis 1.000 A"
+                        ],
+                        [
+                            "Badtemperatur",
+                            "20 – 60 °C"
+                        ],
+                        [
+                            "Stellfläche",
+                            "6,5 × 2,2 m"
+                        ]
+                    ],
+                    "featuresTitle": "Gleichmäßige Schichten, Teil für Teil",
+                    "features": [
+                        {
+                            "title": "Prozessbecken",
+                            "items": [
+                                "Säurebeständige Becken aus Polypropylen",
+                                "Füllstand- und Temperatursensoren in jedem Becken"
+                            ]
+                        },
+                        {
+                            "title": "Liniensteuerung",
+                            "items": [
+                                "Rezepte pro Teiletyp",
+                                "Produktionsprotokoll als CSV exportierbar"
+                            ]
+                        }
+                    ]
+                },
+                "pt": {
+                    "subtitle": "Linha automática de galvanoplastia",
+                    "description": "A Plate C200 é uma linha completa de galvanoplastia, com tanques de pré-tratamento, revestimento e enxágue. Um controlador programável gerencia a densidade de corrente, a temperatura do banho e os tempos de imersão de cada peça.\n\nTanques, retificadores e exaustão são entregues como uma unidade já testada, o que reduz o tempo de instalação no local.",
+                    "highlights": [
+                        "Linha completa: pré-tratamento, revestimento e enxágue",
+                        "Densidade de corrente e temperatura do banho programáveis",
+                        "Entregue já testada, como uma única unidade",
+                        "Exaustão de vapores integrada"
+                    ],
+                    "specs": [
+                        [
+                            "Volume do tanque",
+                            "200 l por tanque"
+                        ],
+                        [
+                            "Retificador",
+                            "até 1.000 A"
+                        ],
+                        [
+                            "Temperatura do banho",
+                            "20 – 60 °C"
+                        ],
+                        [
+                            "Área ocupada",
+                            "6,5 × 2,2 m"
+                        ]
+                    ],
+                    "featuresTitle": "Camadas uniformes, peça após peça",
+                    "features": [
+                        {
+                            "title": "Tanques de processo",
+                            "items": [
+                                "Tanques de polipropileno resistentes a ácidos",
+                                "Sensores de nível e temperatura em cada tanque"
+                            ]
+                        },
+                        {
+                            "title": "Controlador da linha",
+                            "items": [
+                                "Receitas por tipo de peça",
+                                "Registro de produção exportável em CSV"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "clean-w1",
+            "category": "cleaning",
+            "name": "Clean W1",
+            "subtitle": "Washing and degreasing station",
+            "description": "Clean W1 removes oil, dust and polishing residues before plating or inspection. Parts pass through spray washing, ultrasonic cleaning and hot-air drying in one enclosed cabinet.\n\nThe washing water is filtered and reused, keeping consumption and disposal costs low.",
+            "image": "main.webp",
+            "featured": false,
+            "highlights": [
+                "Spray, ultrasonic and drying in one cabinet",
+                "Water filtration and reuse",
+                "Stainless steel construction",
+                "Door interlock for operator safety"
+            ],
+            "specs": [
+                [
+                    "Chamber size",
+                    "800 × 600 × 600 mm"
+                ],
+                [
+                    "Ultrasonic power",
+                    "2 × 1,000 W"
+                ],
+                [
+                    "Water consumption",
+                    "about 30 l/h"
+                ],
+                [
+                    "Power supply",
+                    "400 V / 50 Hz, 9 kW"
+                ]
+            ],
+            "featuresTitle": "Clean parts, lower costs",
+            "features": [
+                {
+                    "title": "Ultrasonic tank",
+                    "image": "detail.webp",
+                    "items": [
+                        "Reaches blind holes and narrow gaps",
+                        "Adjustable frequency for delicate parts"
+                    ]
+                }
+            ],
+            "gallery": [
+                "side.webp"
+            ],
+            "translations": {
+                "de": {
+                    "subtitle": "Wasch- und Entfettungsstation",
+                    "description": "Die Clean W1 entfernt Öl, Staub und Polierrückstände vor der Beschichtung oder Prüfung. Die Teile durchlaufen Spritzwäsche, Ultraschallreinigung und Heißlufttrocknung in einer geschlossenen Kabine.\n\nDas Waschwasser wird gefiltert und wiederverwendet, was Verbrauch und Entsorgungskosten niedrig hält.",
+                    "highlights": [
+                        "Spritzen, Ultraschall und Trocknen in einer Kabine",
+                        "Wasserfiltration und Wiederverwendung",
+                        "Konstruktion aus Edelstahl",
+                        "Türverriegelung für die Sicherheit des Bedieners"
+                    ],
+                    "specs": [
+                        [
+                            "Kammergröße",
+                            "800 × 600 × 600 mm"
+                        ],
+                        [
+                            "Ultraschallleistung",
+                            "2 × 1.000 W"
+                        ],
+                        [
+                            "Wasserverbrauch",
+                            "ca. 30 l/h"
+                        ],
+                        [
+                            "Stromversorgung",
+                            "400 V / 50 Hz, 9 kW"
+                        ]
+                    ],
+                    "featuresTitle": "Saubere Teile, niedrigere Kosten",
+                    "features": [
+                        {
+                            "title": "Ultraschallbecken",
+                            "items": [
+                                "Erreicht Sacklöcher und enge Spalten",
+                                "Einstellbare Frequenz für empfindliche Teile"
+                            ]
+                        }
+                    ]
+                },
+                "pt": {
+                    "subtitle": "Estação de lavagem e desengraxe",
+                    "description": "A Clean W1 remove óleo, poeira e resíduos de polimento antes do revestimento ou da inspeção. As peças passam por lavagem com jato, limpeza ultrassônica e secagem com ar quente em uma cabine fechada.\n\nA água de lavagem é filtrada e reutilizada, mantendo baixos o consumo e o custo de descarte.",
+                    "highlights": [
+                        "Jato, ultrassom e secagem em uma só cabine",
+                        "Filtragem e reutilização da água",
+                        "Construção em aço inoxidável",
+                        "Trava da porta para a segurança do operador"
+                    ],
+                    "specs": [
+                        [
+                            "Tamanho da câmara",
+                            "800 × 600 × 600 mm"
+                        ],
+                        [
+                            "Potência ultrassônica",
+                            "2 × 1.000 W"
+                        ],
+                        [
+                            "Consumo de água",
+                            "cerca de 30 l/h"
+                        ],
+                        [
+                            "Alimentação",
+                            "400 V / 50 Hz, 9 kW"
+                        ]
+                    ],
+                    "featuresTitle": "Peças limpas, custos menores",
+                    "features": [
+                        {
+                            "title": "Tanque ultrassônico",
+                            "items": [
+                                "Alcança furos cegos e frestas estreitas",
+                                "Frequência ajustável para peças delicadas"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "gauge-r",
+            "category": "quality-control",
+            "name": "Gauge R",
+            "subtitle": "Portable surface roughness tester",
+            "description": "Gauge R measures surface roughness directly on the production floor. Place the probe on the part, press start and read Ra, Rz and Rmax on the color display in seconds.\n\nResults are stored with date and part number and can be transferred to a PC over USB.",
+            "image": "main.webp",
+            "featured": false,
+            "highlights": [
+                "Measures Ra, Rz and Rmax",
+                "Results in seconds on a color display",
+                "Stores up to 10,000 measurements",
+                "Rechargeable battery for a full shift"
+            ],
+            "specs": [
+                [
+                    "Measuring range",
+                    "Ra 0.05 – 10 µm"
+                ],
+                [
+                    "Traverse length",
+                    "up to 16 mm"
+                ],
+                [
+                    "Battery life",
+                    "about 8 hours"
+                ],
+                [
+                    "Weight",
+                    "400 g"
+                ]
+            ],
+            "featuresTitle": "",
+            "features": [],
+            "gallery": [],
+            "translations": {
+                "de": {
+                    "subtitle": "Tragbares Rauheitsmessgerät",
+                    "description": "Das Gauge R misst die Oberflächenrauheit direkt in der Fertigung. Taster auf das Teil setzen, Start drücken und Ra, Rz und Rmax in Sekunden auf dem Farbdisplay ablesen.\n\nDie Ergebnisse werden mit Datum und Teilenummer gespeichert und können per USB auf einen PC übertragen werden.",
+                    "highlights": [
+                        "Misst Ra, Rz und Rmax",
+                        "Ergebnisse in Sekunden auf dem Farbdisplay",
+                        "Speichert bis zu 10.000 Messungen",
+                        "Akku für eine ganze Schicht"
+                    ],
+                    "specs": [
+                        [
+                            "Messbereich",
+                            "Ra 0,05 – 10 µm"
+                        ],
+                        [
+                            "Taststrecke",
+                            "bis 16 mm"
+                        ],
+                        [
+                            "Akkulaufzeit",
+                            "ca. 8 Stunden"
+                        ],
+                        [
+                            "Gewicht",
+                            "400 g"
+                        ]
+                    ],
+                    "featuresTitle": "",
+                    "features": []
+                },
+                "pt": {
+                    "subtitle": "Rugosímetro portátil",
+                    "description": "O Gauge R mede a rugosidade superficial direto no chão de fábrica. Basta apoiar o apalpador na peça, apertar iniciar e ler Ra, Rz e Rmax em segundos no display colorido.\n\nOs resultados ficam salvos com data e número da peça e podem ser transferidos para um PC via USB.",
+                    "highlights": [
+                        "Mede Ra, Rz e Rmax",
+                        "Resultados em segundos no display colorido",
+                        "Armazena até 10.000 medições",
+                        "Bateria recarregável para um turno inteiro"
+                    ],
+                    "specs": [
+                        [
+                            "Faixa de medição",
+                            "Ra 0,05 – 10 µm"
+                        ],
+                        [
+                            "Curso de medição",
+                            "até 16 mm"
+                        ],
+                        [
+                            "Autonomia da bateria",
+                            "cerca de 8 horas"
+                        ],
+                        [
+                            "Peso",
+                            "400 g"
+                        ]
+                    ],
+                    "featuresTitle": "",
+                    "features": []
+                }
+            }
+        }
+    ],
+    "captcha": {
+        "provider": "",
+        "siteKey": ""
+    }
+}
