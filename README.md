@@ -1,10 +1,33 @@
 # Catálogo industrial com painel administrativo
 
+![Site no notebook e no celular](docs/screenshots/capa.webp)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP_7.4+-777BB4?logo=php&logoColor=white)
+![Sem framework](https://img.shields.io/badge/sem_framework-0f4c5c)
+![Sem banco de dados](https://img.shields.io/badge/sem_banco_de_dados-0f4c5c)
+
+**[🔗 Ver demonstração online](https://victorslip.github.io/industrial-catalog-site/)** — catálogo e idiomas funcionando. O painel e o envio do formulário precisam de PHP, então rodam só localmente ou em hospedagem.
+
 Site institucional e catálogo de máquinas industriais, com **painel administrativo próprio** para quem não é da área técnica, **três idiomas** (inglês, alemão e português) e **formulário de contato com envio por SMTP e CAPTCHA**. Feito em HTML, CSS e JavaScript puros no front-end e PHP sem framework e sem banco de dados no back-end, para rodar em qualquer hospedagem compartilhada.
 
 > Projeto desenvolvido para um cliente real. Nesta versão pública, todo o conteúdo foi trocado por uma **empresa fictícia, a "Nordtec Machinery"**. Textos, máquinas, contatos, logo e ilustrações foram criados só para a demonstração.
 
 **English summary:** Corporate website and machine catalog for an industrial manufacturer. Vanilla HTML/CSS/JS front-end that renders everything from a single JSON file, a dependency-free PHP admin panel for non-technical editors, EN/DE/PT-BR translations, an SMTP contact form with CAPTCHA and automatic WebP image conversion. No framework, no database: it runs on plain shared PHP hosting. All company content in this repository is fictional.
+
+---
+
+## Imagens
+
+| Página inicial | Catálogo com filtros |
+|---|---|
+| ![Página inicial](docs/screenshots/inicio.webp) | ![Catálogo de máquinas](docs/screenshots/catalogo.webp) |
+
+| Página da máquina | Três idiomas no celular |
+|---|---|
+| ![Página de uma máquina](docs/screenshots/maquina.webp) | ![Site em português, alemão e inglês](docs/screenshots/idiomas.webp) |
 
 ---
 

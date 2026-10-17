@@ -123,6 +123,7 @@ const I18N = {
     "form.err.fields": "Please fill in all fields.",
     "form.err.email": "Please enter a valid e-mail address.",
     "form.err.rate": "Too many messages. Please try again later.",
+    "form.demo": "This is a live demo on GitHub Pages: messages are not sent here. With PHP hosting, the form delivers them by e-mail.",
 
     "machines.title": "Our machines",
     "machines.lead": "Find the ideal solution for your needs",
@@ -268,6 +269,7 @@ const I18N = {
     "form.err.fields": "Bitte füllen Sie alle Felder aus.",
     "form.err.email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
     "form.err.rate": "Zu viele Nachrichten. Bitte versuchen Sie es später erneut.",
+    "form.demo": "Dies ist eine Demo auf GitHub Pages: Hier werden keine Nachrichten gesendet. Mit PHP-Hosting stellt das Formular sie per E-Mail zu.",
 
     "machines.title": "Unsere Maschinen",
     "machines.lead": "Finden Sie die ideale Lösung für Ihre Anforderungen",
@@ -413,6 +415,7 @@ const I18N = {
     "form.err.fields": "Preencha todos os campos.",
     "form.err.email": "Digite um endereço de e-mail válido.",
     "form.err.rate": "Muitas mensagens enviadas. Tente novamente mais tarde.",
+    "form.demo": "Esta é uma demonstração no GitHub Pages: aqui as mensagens não são enviadas. Numa hospedagem com PHP, o formulário entrega por e-mail.",
 
     "machines.title": "Nossas máquinas",
     "machines.lead": "Encontre a solução ideal para as suas necessidades",

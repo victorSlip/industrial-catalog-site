@@ -517,6 +517,8 @@ function initContact() {
     setStatus("");
     try {
       if (captcha && !captcha.token()) throw new Error(t("form.err.captcha"));
+      // demonstração no GitHub Pages: não há PHP para receber a mensagem
+      if (location.hostname.endsWith("github.io")) { setStatus(escapeHtml(t("form.demo")), "ok"); return; }
       const fd = new FormData(form);
       fd.append("lang", LANG);
       const res = await fetch("api/contact.php", { method: "POST", body: fd });
